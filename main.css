@@ -1,0 +1,325 @@
+    * {
+        text-transform: capitalize;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+     :root {
+        --primary-color: green;
+        --light-color: rgb(230, 227, 227);
+        --dark-color: black;
+        --white-color: white;
+    }
+    
+    .container {
+        width: 1200px;
+        margin: 50px auto;
+    }
+    
+    header {
+        background-color: var(--light-color);
+    }
+    
+    nav {
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 5%;
+        display: inline-flex;
+    }
+    
+    .ul-nav {
+        list-style: none;
+        margin-left: 50%;
+        display: inline-block;
+    }
+    
+    .ul-nav li {
+        padding-left: 15px;
+        display: inline-block;
+    }
+    
+    .ul-nav li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: var(--dark-color);
+    }
+    
+    .showcase {
+        margin-top: 10%;
+        display: flex;
+    }
+    
+    .showcase div:first-of-type {
+        margin-left: 5%;
+    }
+    
+    .showcase div:first-of-type h3 {
+        font-size: 50px;
+    }
+    
+    .showcase div:first-of-type h1 {
+        color: var(--primary-color);
+        font-size: 80px;
+        font-weight: bold;
+    }
+    
+    .showcase div:first-of-type p {
+        font-weight: bold;
+    }
+    
+    .showcase form .in {
+        display: inline-flex;
+    }
+    
+    .in a,
+    .in-1 a {
+        font-size: 20px;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: var(--white-color);
+        background-color: var(--dark-color);
+    }
+    
+    .in {
+        border: none;
+        box-shadow: 1px 2px 8px var(--light-color);
+    }
+    
+    .in input {
+        width: 400px;
+        margin-left: -7%;
+    }
+    
+    .form-showcase {
+        display: block;
+    }
+    
+    .in-1 {
+        margin-top: 30px;
+        margin-bottom: 200px;
+    }
+    
+    .in-1 a {
+        margin-right: 10px;
+    }
+    
+    .about {
+        margin: 100px;
+        display: flex;
+        box-shadow: 1px 2px 20px gray;
+    }
+    
+    .about-1 {
+        margin-top: 30px;
+        width: 50%;
+        padding-right: 10px;
+    }
+    
+    .about-2 {
+        width: 50%;
+    }
+    
+    .about-2 img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .about-1 h1 {
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        font-size: 40px;
+        font-weight: bold;
+        padding: 20px;
+        display: inline-flex;
+        margin-bottom: 30px;
+    }
+    
+    .about-1 p {
+        margin-bottom: 50px;
+    }
+    
+    .about-1 a {
+        margin-left: 10px;
+        background-color: var(--dark-color);
+        text-decoration: none;
+        color: var(--white-color);
+        padding: 15px 50px;
+        font-size: 20px;
+        border-radius: 25px;
+    }
+    
+    .product-1 {
+        display: flex;
+    }
+    
+    .product h1 {
+        margin-left: 30%;
+        font-size: 50px;
+        font-weight: bold;
+        padding: 20px;
+        display: inline-flex;
+        margin-bottom: 30px;
+    }
+    
+    .product-1 h4 {
+        font-size: 25px;
+    }
+    
+    .product-1 div:first-of-type {
+        margin-right: 30px;
+        width: 50%;
+    }
+    
+    .product-2 {
+        width: 50%;
+    }
+    
+    .product-2 img {
+        width: 120%
+    }
+    
+    .product-2 img:last-of-type {
+        margin-left: -105%;
+        margin-top: -130px;
+        width: 150%;
+    }
+    
+    .product {
+        margin-bottom: 100px;
+    }
+    
+    .testimonial .h1 {
+        margin-right: 50px;
+        margin-bottom: -50px;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    .testi-1 {
+        padding-top: 7%;
+        height: 800px;
+        background-image: url(../images/test.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .testi-1 div:first-of-type {
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        padding: 20px;
+    }
+    
+    .testi-1 .container {
+        display: flex;
+    }
+    
+    .testi-2 {
+        width: 30%;
+        background-color: var(--white-color);
+    }
+    
+    .testi-1 .container div:last-of-type {
+        width: 60%;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .ftr-2 {
+        background-color: var(--primary-color);
+        padding: 10px;
+        text-align: center;
+    }
+    
+    footer {
+        color: white;
+        padding-top: 40px;
+        background-color: rgb(49, 49, 49)
+    }
+    
+    .contact {
+        text-align: center;
+        background-image: url(../images/banner2.png);
+        height: 800px;
+    }
+    
+    .form-contact {
+        box-shadow: 1px 2px 20px gray;
+        padding: 30px;
+        background-color: var(--white-color);
+        width: 600px;
+        margin: 50px auto;
+    }
+    
+    .form-contact input {
+        border: 1px solid gray;
+        display: block;
+        width: 90%;
+        padding: 8px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+    
+    .form-contact textarea {
+        margin-left: 30px;
+        border: 1px solid gray;
+        display: block;
+        width: 90%;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .form-contact a {
+        background-color: var(--primary-color);
+        padding: 10px 30px;
+        text-decoration: none;
+        color: var(--white-color);
+        font-size: 20px;
+    }
+    
+    .img-ftr {
+        margin-left: 300px;
+        padding: 10px 18px;
+        width: 180px;
+        border: 1px solid white;
+    }
+    
+    .ftr-1 {
+        padding-left: 300px;
+        display: inline-flex;
+        padding-bottom: 30px;
+    }
+    
+    .ftr-1 div {
+        margin-top: 30px;
+        padding-right: 30px;
+        width: 33.3%;
+    }
+    
+    .ftr-1 div:nth-of-type(2) a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    
+    .ftr-1 div:nth-of-type(2) a:hover {
+        color: var(--primary-color);
+    }
+    
+    .ftr-1 div:nth-of-type(3) input {
+        display: block;
+        padding-left: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: 100%;
+    }
+    
+    .ftr-1 div:nth-of-type(3) button {
+        margin-top: 20px;
+        color: white;
+        background-color: var(--primary-color);
+        border: none;
+        padding: 10px 20px;
+    }
